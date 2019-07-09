@@ -679,8 +679,8 @@ extension VGPlayerView {
         replayButton.snp.makeConstraints { [weak self] (make) in
             guard let strongSelf = self else { return }
             make.center.equalTo(strongSelf)
-            make.width.equalTo(30)
-            make.height.equalTo(30)
+            make.width.equalTo(120)
+            make.height.equalTo(120)
         }
         
         // top view layout
@@ -695,8 +695,8 @@ extension VGPlayerView {
             guard let strongSelf = self else { return }
             make.left.equalTo(strongSelf.topView).offset(10)
             make.top.equalTo(strongSelf.topView).offset(28)
-            make.height.equalTo(30)
-            make.width.equalTo(30)
+            make.height.equalTo(120)
+            make.width.equalTo(120)
         }
         titleLabel.snp.makeConstraints { [weak self] (make) in
             guard let strongSelf = self else { return }
@@ -725,7 +725,7 @@ extension VGPlayerView {
             guard let strongSelf = self else { return }
             make.right.equalTo(strongSelf.fullscreenButton.snp.left).offset(-10)
             make.centerY.equalTo(strongSelf.playButtion)
-            make.height.equalTo(30)
+            make.height.equalTo(120)
         }
         
         timeSlider.snp.makeConstraints { [weak self] (make) in
@@ -739,15 +739,15 @@ extension VGPlayerView {
             guard let strongSelf = self else { return }
             make.centerY.equalTo(strongSelf.playButtion)
             make.right.equalTo(strongSelf.bottomView).offset(-10)
-            make.height.equalTo(30)
-            make.width.equalTo(30)
+            make.height.equalTo(120)
+            make.width.equalTo(120)
         }
         
         loadingIndicator.snp.makeConstraints { [weak self] (make) in
             guard let strongSelf = self else { return }
             make.center.equalTo(strongSelf)
-            make.height.equalTo(30)
-            make.width.equalTo(30)
+            make.height.equalTo(120)
+            make.width.equalTo(120)
         }
     }
 }

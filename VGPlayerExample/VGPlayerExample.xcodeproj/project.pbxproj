@@ -24,6 +24,7 @@
 		80573F9D1EF93C6400F39826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80573F9C1EF93C6400F39826 /* Main.storyboard */; };
 		80B21B471EF54A51009E00EA /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 80B21B441EF54A51009E00EA /* 2.mp4 */; };
 		80B21B481EF54A51009E00EA /* Despacito Remix Luis Fonsi ft.Daddy Yankee Justin Bieber Lyrics [Spanish].srt in Resources */ = {isa = PBXBuildFile; fileRef = 80B21B451EF54A51009E00EA /* Despacito Remix Luis Fonsi ft.Daddy Yankee Justin Bieber Lyrics [Spanish].srt */; };
+		A9A8609422D4C416000D4E03 /* gif_alfa.gif in Resources */ = {isa = PBXBuildFile; fileRef = A9A8609322D4C416000D4E03 /* gif_alfa.gif */; };
 		D7457CE6FAFD973B7FE84086 /* Pods_VGPlayerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF3229E2FBB5410B9B7A169 /* Pods_VGPlayerExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		80B21B441EF54A51009E00EA /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
 		80B21B451EF54A51009E00EA /* Despacito Remix Luis Fonsi ft.Daddy Yankee Justin Bieber Lyrics [Spanish].srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Despacito Remix Luis Fonsi ft.Daddy Yankee Justin Bieber Lyrics [Spanish].srt"; sourceTree = "<group>"; };
 		8DF3229E2FBB5410B9B7A169 /* Pods_VGPlayerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VGPlayerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A8609322D4C416000D4E03 /* gif_alfa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_alfa.gif; sourceTree = "<group>"; };
 		D0366892B26AF094A35C3550 /* Pods-VGPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VGPlayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VGPlayerExample/Pods-VGPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +92,7 @@
 				80573F971EF93C5300F39826 /* DefaultPlayerView */,
 				3397F3E91F3C62CE00EB7953 /* Embed */,
 				803125641F07939500CEEEA5 /* Settings */,
+				A9A8609322D4C416000D4E03 /* gif_alfa.gif */,
 				3365C5371EEB8FF100CC7F4F /* AppDelegate.swift */,
 				3365C54B1EEB901400CC7F4F /* VGMainViewController.swift */,
 				80573F9C1EF93C6400F39826 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 				80B21B481EF54A51009E00EA /* Despacito Remix Luis Fonsi ft.Daddy Yankee Justin Bieber Lyrics [Spanish].srt in Resources */,
 				80573F9D1EF93C6400F39826 /* Main.storyboard in Resources */,
 				80B21B471EF54A51009E00EA /* 2.mp4 in Resources */,
+				A9A8609422D4C416000D4E03 /* gif_alfa.gif in Resources */,
 				3365C5421EEB8FF100CC7F4F /* LaunchScreen.storyboard in Resources */,
 				3365C53F1EEB8FF100CC7F4F /* Assets.xcassets in Resources */,
 			);
